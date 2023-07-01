@@ -1,0 +1,49 @@
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Define styles for side navigation */
+  .sidenav {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100px;
+    height: 100%;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  .sidenav a {
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .sidenav a:hover {
+    color: #666;
+  }
+  
+  /* Define styles for main content area */
+  .main-content {
+    margin-left: 200px; /* Width of the side navigation */
+    padding: 20px;
+  }
+  
+  /* Add some styles to make it look nice */
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    color: #333;
+    font-size: 24px;
+  }
+  
+  p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.5;
+  }
