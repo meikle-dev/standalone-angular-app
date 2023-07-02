@@ -1,8 +1,12 @@
-import { createActionGroup, emptyProps } from '@ngrx/store';
+import { createActionGroup, emptyProps, props } from '@ngrx/store';
+import { CatFact } from 'src/app/models/catFact';
 
-export const App = createActionGroup({
+export const CatFacts = createActionGroup({
   source: 'App',
   events: {
+    'getCatFact': emptyProps(),
+    'getCatFactSuccess': props<{fact: CatFact}>(),
+    'getCatFactError':props<{error: string;}>()
   }
 });
 
